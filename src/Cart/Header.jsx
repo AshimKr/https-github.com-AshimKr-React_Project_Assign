@@ -9,7 +9,7 @@ const Header = ({count}) => {
         <div className="container-fluid d-flex ">
           <span className="navbar-brand mb-0  h1 mx-auto">Shopping Cart</span>
         <span 
-          onClick={()=>{navigate('/cart')}}
+          onClick={()=>{navigate('/shoping/cart')}}
           className="navbar-brand mb-0 h1 me-2"><i className="fa-solid fa-cart-shopping"></i> {count} </span>
         
         </div>

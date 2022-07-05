@@ -13,10 +13,10 @@ function MainPage() {
   return (
     <main>
       <Header count={cartItems.length} />
+      <Home addItems={setCartItems} value={cartItems} />
+      
       <Routes>
-        <Route path='/' element={<Home addItems={setCartItems} value={cartItems} />} />
-
-        <Route path='/cart'
+        <Route path='/shoping/cart'
           element={<CartPage setCartValue={setCartItems}
             cartValue={cartItems}
           />} />
